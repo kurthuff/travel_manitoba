@@ -1,3 +1,38 @@
+## Project Structure
+
+travel_manitoba/
+│
+├── data/
+│   ├── raw/                    # Original, immutable data files
+│   ├── interim/                # Intermediate transformations (optional)
+│   ├── processed/              # Cleaned, transformed data ready for analysis
+│   └── external/               # Data from third-party sources
+│
+├── notebooks/                  # Jupyter notebooks for exploratory data analysis
+│   └── *.ipynb                 # Numbered notebooks (e.g., 01_eda_airport.ipynb)
+│
+├── scripts/                    # Production ETL scripts and utilities
+│   ├── paths.py               # Centralized path configuration
+│   ├── extract/               # Data extraction scripts
+│   ├── transform/             # Data cleaning and transformation scripts
+│   └── etl_pipeline.py        # Main ETL orchestration
+│
+├── outputs/                    # Analysis outputs and deliverables
+│   ├── powerbi/               # Power BI dashboard files (.pbix)
+│   ├── reports/               # Generated reports and documentation
+│   └── figures/               # Visualizations and charts
+│
+├── docs/                       # Project documentation
+│   ├── data_dictionary.md     # Data definitions and schema
+│   └── methodology.md         # Analysis methodology and decisions
+│
+├── tests/                      # Unit tests for data pipeline (optional)
+│
+├── .gitignore                  # Git ignore rules
+├── README.md                   # Project overview and documentation
+└── requirements.txt            # Python dependencies
+
+
 ## Data Sources
 
 ### Airport Traffic Statistics
