@@ -1,55 +1,77 @@
 ## Project Structure
 
-### Architecture
-
 ```text
 travel_manitoba/
-│
 ├── data/
-│   ├── raw/                    
-│   ├── interim/                
-│   ├── processed/              
-│   └── external/               
-│
-├── notebooks/                  
-│   └── *.ipynb                 
-│
-├── scripts/                    
-│   ├── paths.py               
-│   ├── extract/               
-│   ├── transform/             
-│   └── etl_pipeline.py        
-│
-├── outputs/                    
-│   ├── powerbi/               
-│   ├── reports/               
-│   └── figures/               
-│
-├── docs/                       
-│   ├── data_dictionary.md     
-│   └── methodology.md         
-│
-├── tests/                      
-│
-├── .gitignore                  
-├── README.md                   
-├── requirements.txt            
+│   ├── raw/
+│   ├── interim/
+│   ├── processed/
+│   └── reference/
+├── notebooks/
+├── scripts/
+│   ├── paths.py
+│   ├── extract/
+│   ├── transform/
+│   └── etl_pipeline.py
+├── outputs/
+│   ├── powerbi/
+│   ├── reports/
+│   └── figures/
+├── docs/
+│   ├── data_dictionary.md
+│   └── methodology.md
+├── tests/
+├── .gitignore
+├── README.md
+├── requirements.txt
 └── LICENSE
 ```
-### Directory Descriptions
 
-data/raw/ - Original, immutable data files
-data/interim/ - Intermediate transformations
-data/processed/ - Cleaned, transformed data ready for analysis
-data/reference/ - Data such as built lookup tables
-notebooks/ - Jupyter notebooks for exploratory data analysis
-scripts/ - Production ETL scripts and utilities
-scripts/extract/ - Data extraction scripts
-scripts/transform/ - Data cleaning and transformation scripts
-outputs/powerbi/ - Power BI dashboard files (.pbix)
-outputs/reports/ - Generated reports and documentation
-outputs/figures/ - Visualizations and charts
-docs/ - Project documentation
+**Directory Descriptions:**
+- `data/raw/` - Original, immutable data files
+- `data/interim/` - Intermediate transformations
+- `data/processed/` - Cleaned data ready for Power BI
+- `data/reference/` - Lookup tables and reference data
+- `notebooks/` - Jupyter notebooks for exploratory data analysis
+- `scripts/` - Production ETL scripts and utilities
+- `outputs/powerbi/` - Power BI dashboard files (.pbix)
+- `outputs/reports/` - Generated reports and documentation
+- `docs/` - Project documentation
+
+## Running the ETL Pipeline
+
+```bash
+# Run the complete ETL pipeline
+python scripts/etl_pipeline.py
+
+# Or run individual extraction/transformation scripts
+python scripts/extract/extract_airport.py
+python scripts/transform/clean_airport.py
+```
+
+## Path Management
+
+Paths are managed through `scripts/paths.py` for consistent and portable file access.
+
+```python
+from paths import raw, processed, powerbi
+
+# Load raw data
+airport_pdf = raw() / 'Website_Statistics_Q3_2025.pdf'
+df = pd.read_csv(raw() / 'statscan_data.csv')
+
+# Save processed data
+df.to_csv(processed() / 'airport_clean.csv', index=False)
+
+# Reference Power BI output location
+dashboard_path = powerbi() / 'tourism_indicators.pbix'
+```
+
+## Data Flow
+
+```text
+raw data → notebooks (EDA) → scripts (ETL) → processed data → Power BI
+```
 
 ## Data Sources
 
