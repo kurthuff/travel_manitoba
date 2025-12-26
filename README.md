@@ -1,37 +1,54 @@
 ## Project Structure
 
+### Architecture
+
 travel_manitoba/
 │
 ├── data/
-│   ├── raw/                    # Original, immutable data files
-│   ├── interim/                # Intermediate transformations (optional)
-│   ├── processed/              # Cleaned, transformed data ready for analysis
-│   └── external/               # Data from third-party sources
+│   ├── raw/                    
+│   ├── interim/                
+│   ├── processed/              
+│   └── external/               
 │
-├── notebooks/                  # Jupyter notebooks for exploratory data analysis
-│   └── *.ipynb                 # Numbered notebooks (e.g., 01_eda_airport.ipynb)
+├── notebooks/                  
+│   └── *.ipynb                 
 │
-├── scripts/                    # Production ETL scripts and utilities
-│   ├── paths.py               # Centralized path configuration
-│   ├── extract/               # Data extraction scripts
-│   ├── transform/             # Data cleaning and transformation scripts
-│   └── etl_pipeline.py        # Main ETL orchestration
+├── scripts/                    
+│   ├── paths.py               
+│   ├── extract/               
+│   ├── transform/             
+│   └── etl_pipeline.py        
 │
-├── outputs/                    # Analysis outputs and deliverables
-│   ├── powerbi/               # Power BI dashboard files (.pbix)
-│   ├── reports/               # Generated reports and documentation
-│   └── figures/               # Visualizations and charts
+├── outputs/                    
+│   ├── powerbi/               
+│   ├── reports/               
+│   └── figures/               
 │
-├── docs/                       # Project documentation
-│   ├── data_dictionary.md     # Data definitions and schema
-│   └── methodology.md         # Analysis methodology and decisions
+├── docs/                       
+│   ├── data_dictionary.md     
+│   └── methodology.md         
 │
-├── tests/                      # Unit tests for data pipeline (optional)
+├── tests/                      
 │
-├── .gitignore                  # Git ignore rules
-├── README.md                   # Project overview and documentation
-└── requirements.txt            # Python dependencies
+├── .gitignore                  
+├── README.md                   
+├── requirements.txt            
+└── LICENSE
 
+### Directory Descriptions
+
+data/raw/ - Original, immutable data files
+data/interim/ - Intermediate transformations
+data/processed/ - Cleaned, transformed data ready for analysis
+data/reference/ - Data such as built lookup tables
+notebooks/ - Jupyter notebooks for exploratory data analysis
+scripts/ - Production ETL scripts and utilities
+scripts/extract/ - Data extraction scripts
+scripts/transform/ - Data cleaning and transformation scripts
+outputs/powerbi/ - Power BI dashboard files (.pbix)
+outputs/reports/ - Generated reports and documentation
+outputs/figures/ - Visualizations and charts
+docs/ - Project documentation
 
 ## Data Sources
 
