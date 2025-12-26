@@ -2,6 +2,7 @@
 
 ### Architecture
 
+'''text
 travel_manitoba/
 │
 ├── data/
@@ -34,7 +35,7 @@ travel_manitoba/
 ├── README.md                   
 ├── requirements.txt            
 └── LICENSE
-
+'''
 ### Directory Descriptions
 
 data/raw/ - Original, immutable data files
