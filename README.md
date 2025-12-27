@@ -43,10 +43,6 @@ travel_manitoba/
 ```bash
 # Run the complete ETL pipeline
 python scripts/etl_pipeline.py
-
-# Or run individual extraction/transformation scripts
-python scripts/extract/extract_airport.py
-python scripts/transform/clean_airport.py
 ```
 
 ## Path Management
@@ -97,6 +93,23 @@ raw data → notebooks (EDA) → scripts (ETL) → processed data → Power BI
 
 **Citation:**
 > Statistics Canada. Table 24-10-0050-01 Non-resident visitors entering Canada, by country of residence. DOI: https://doi.org/10.25318/2410005001-eng
+
+### International Visitor Entries (Canada-wide)
+**Metrics:** U.S. Visitor Direct Entries into Canada, Extended country-of-origin analysis for Canada
+
+- **Source:** Statistics Canada, Table 24-10-0050-01
+- **Title:** Non-resident visitors entering Canada, by country of residence
+- **DOI:** https://doi.org/10.25318/2410005001-eng
+- **URL:** https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2410005001
+- **Local File:** `data/raw/2410005001cad-eng.csv`
+- **Coverage:** January 2020 - October 2025
+- **Update Frequency:** Monthly
+- **Geography:** Canada (national totals)
+
+**Citation:**
+> Statistics Canada. Table 24-10-0050-01 Non-resident visitors entering Canada, by country of residence. DOI: https://doi.org/10.25318/2410005001-eng
+
+**Note:** This is the same table as the Manitoba entries above, but with Geography=Canada instead of Geography=Manitoba to provide national context for comparison.
 
 ### Food & Accommodation Employment
 **Metric:** MB Food & Accommodation Sector Employment
