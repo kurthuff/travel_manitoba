@@ -146,3 +146,21 @@ raw data → notebooks (EDA) → scripts (ETL) → processed data → Power BI
 - **Local File:** `data/raw/consumer_confidence_tradEconDec2025.csv`
 - **Coverage:** December 2024 - December 2025
 - **Update Frequency:** Monthly
+
+### YWG Direct Air Arrivals (U.S. & Overseas)
+**Metrics:** Monthly air arrivals to Winnipeg by country group (United States, Overseas, Canada)
+
+- **Source:** Statistics Canada, Frontier Counts Interactive Dashboard
+- **Title:** Frontier Counts: Interactive Dashboard
+- **URL:** https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2023020-eng.htm
+- **Data Extraction Method:** 
+  - Accessed interactive dashboard
+  - Applied filter: "Winnipeg" airport
+  - Extracted monthly arrivals data from visual: "Arrivals by Month"
+  - Country groups: United States of America, Overseas, Canada
+- **Coverage:** January 2021 - November 2025
+- **Update Frequency:** Monthly
+- **Note:** Data manually extracted from interactive dashboard; not available as a public downloadable dataset. This represents an alternative to Table 24-10-0053-02 which only provides annual Winnipeg air arrival data.
+
+**Citation:**
+> Statistics Canada. Frontier Counts: Interactive Dashboard. https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2023020-eng.htm
