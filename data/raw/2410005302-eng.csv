@@ -1,0 +1,55 @@
+﻿"International travellers entering or returning to Canada, by type of transportation and traveller type, annual 1"
+"Frequency: Annual"
+"Table: 24-10-0053-02"
+"Release date: 2025-12-22"
+"Geography: Canada, Province or territory"
+""
+""
+
+"Geography","Winnipeg",
+"Traveller type","Travellers",
+"Traveller characteristics","2024","2025"
+,"Travellers",
+"International travellers entering or returning to Canada","345,887","284,744"
+"Non-resident visitors entering Canada","67,370","66,928"
+"United States of America residents entering Canada 2 3","57,281","56,813"
+"United States of America residents, air 3","57,281","56,813"
+"United States of America residents, land 2 4","0","0"
+"United States of America residents, water 4","0","0"
+"Residents of countries other than the United States of America entering Canada 2 3","10,089","10,115"
+"Residents of countries other than the United States of America, air 3","10,089","10,115"
+"Residents of countries other than the United States of America, land 2 4 5","0","0"
+"Residents of countries other than the United States of America, water 4","0","0"
+"Canadian-resident visitors returning to Canada 6","264,041","204,951"
+"Canadian residents returning from the United States of America 2 3","154,913","112,187"
+"Canadian residents returning from the United States of America, air 3","154,913","112,187"
+"Canadian residents returning from the United States of America, land 2 4","0","0"
+"Canadian residents returning from the United States of America, water 4","0","0"
+"Canadian residents returning from countries other than the United States of America 2 3","109,128","92,764"
+"Canadian residents returning from countries other than the United States of America, air 3","109,128","92,764"
+"Canadian residents returning from countries other than the United States of America, land 2 4","0","0"
+"Canadian residents returning from countries other than the United States of America, water 4","0","0"
+"Other travellers entering or returning to Canada 3 6 7","14,476","12,865"
+"Crew entering or returning to Canada 2 5","10,615","10,191"
+"Crew, United States of America residents entering Canada 2","3,166","5,363"
+"Crew, residents of countries other than the United States of America entering Canada 2 5","75","68"
+"Crew, Canadian residents returning to Canada 2","7,374","4,760"
+"Other non-tourism related purposes 3 7 8","3,861","2,674"
+
+
+
+
+Footnotes:
+1,"Throughout the existence of the Tourism Statistics Program, Statistics Canada introduced changes to improve the quality of its data (for example, a new data source, a new estimation method). For further information on the methodology used by Frontier Counts or the changes implemented over time, users are advised to consult the <a href="https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=5005" rel="external noopener noreferrer" target="_blank">Frontier Counts (opens new window)</a> pages."
+2,"As of January 2022, one passenger from each bus record is considered a crew member. Prior to 2022, there were no crew from bus travellers."
+3,"As of January 2022, travellers from Primary Inspection Kiosks (PIK) who declare their purpose of trip as work are classified as "other travellers" (not as visitors),  in order to align with UN Tourism recommendations. Prior to 2022, they were considered as visitors."
+4,"As of January 2022, all ferry travellers are included in the water mode, in order to align with UN Tourism recommendations. Prior to 2022, most of these travellers were included in the land mode as either pedestrian or automobile travellers (the only exception was Fortune, in Newfoundland and Labrador)."
+5,"Prior to 2022, crew residing in countries other than the United States of America entering by land were considered tourists (overnight visitors). As of January 2022, they are considered as crew ("other travellers")."
+6,"As of January 2022, non-resident travellers with a trip duration of 365 days or more are considered as "other travellers" (not as visitors). Prior to 2022, they were reclassified as Canadian-resident visitors."
+7,"Prior to 2022, land immigration data from the Immigration, Refugees and Citizenship Canada were added as “other travellers”. As of January 2022, as data from the Canada Border Services Agency already include persons immigrating to Canada by land (although they are not indicated specifically as immigrants), in order to avoid overestimating the number of arrivals in Canada, only data from CBSA is retained and those travellers are counted as visitors by default."
+8,"In this table, "other non-tourism related purposes" includes work, immigration, military service, diplomats or members of consular staff."
+
+
+
+"How to cite: Statistics Canada. Table 24-10-0053-02  International travellers entering or returning to Canada, by type of transportation and traveller type, annual"
+https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2410005302

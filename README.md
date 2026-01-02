@@ -144,7 +144,7 @@ raw data → notebooks (EDA) → scripts (ETL) → processed data → Power BI
 - **Source:** Trading Economics
 - **URL:** https://tradingeconomics.com/canada/consumer-confidence
 - **Local File:** `data/raw/consumer_confidence_tradEconDec2025.csv`
-- **Coverage:** December 2024 - December 2025
+- **Coverage:** July 2023 - December 2025
 - **Update Frequency:** Monthly
 
 ### YWG Direct Air Arrivals (U.S. & Overseas)

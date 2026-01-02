@@ -1,0 +1,181 @@
+﻿Month,Country group,Number of arrivals
+2020-12-01 00:00:00,Canada,519
+2020-12-01 00:00:00,United States of America,271
+2020-12-01 00:00:00,Overseas,14
+2021-01-01 00:00:00,Canada,559
+2021-01-01 00:00:00,United States of America,197
+2021-01-01 00:00:00,Overseas,12
+2021-02-01 00:00:00,Canada,63
+2021-02-01 00:00:00,United States of America,11
+2021-02-01 00:00:00,Overseas,0
+2021-03-01 00:00:00,Canada,0
+2021-03-01 00:00:00,United States of America,0
+2021-03-01 00:00:00,Overseas,0
+2021-04-01 00:00:00,Canada,5
+2021-04-01 00:00:00,United States of America,0
+2021-04-01 00:00:00,Overseas,110
+2021-05-01 00:00:00,Canada,0
+2021-05-01 00:00:00,United States of America,0
+2021-05-01 00:00:00,Overseas,0
+2021-06-01 00:00:00,Canada,0
+2021-06-01 00:00:00,United States of America,0
+2021-06-01 00:00:00,Overseas,0
+2021-07-01 00:00:00,Canada,0
+2021-07-01 00:00:00,United States of America,39
+2021-07-01 00:00:00,Overseas,0
+2021-08-01 00:00:00,Canada,2
+2021-08-01 00:00:00,United States of America,0
+2021-08-01 00:00:00,Overseas,117
+2021-09-01 00:00:00,Canada,577
+2021-09-01 00:00:00,United States of America,558
+2021-09-01 00:00:00,Overseas,32
+2021-10-01 00:00:00,Canada,931
+2021-10-01 00:00:00,United States of America,1136
+2021-10-01 00:00:00,Overseas,19
+2021-11-01 00:00:00,Canada,1761
+2021-11-01 00:00:00,United States of America,911
+2021-11-01 00:00:00,Overseas,48
+2021-12-01 00:00:00,Canada,4353
+2021-12-01 00:00:00,United States of America,1156
+2021-12-01 00:00:00,Overseas,132
+2022-01-01 00:00:00,Canada,6080
+2022-01-01 00:00:00,United States of America,663
+2022-01-01 00:00:00,Overseas,62
+2022-02-01 00:00:00,Canada,7149
+2022-02-01 00:00:00,United States of America,1162
+2022-02-01 00:00:00,Overseas,142
+2022-03-01 00:00:00,Canada,11234
+2022-03-01 00:00:00,United States of America,1501
+2022-03-01 00:00:00,Overseas,106
+2022-04-01 00:00:00,Canada,8939
+2022-04-01 00:00:00,United States of America,1299
+2022-04-01 00:00:00,Overseas,148
+2022-05-01 00:00:00,Canada,4355
+2022-05-01 00:00:00,United States of America,2450
+2022-05-01 00:00:00,Overseas,165
+2022-06-01 00:00:00,Canada,3655
+2022-06-01 00:00:00,United States of America,3850
+2022-06-01 00:00:00,Overseas,370
+2022-07-01 00:00:00,Canada,2874
+2022-07-01 00:00:00,United States of America,2548
+2022-07-01 00:00:00,Overseas,252
+2022-08-01 00:00:00,Canada,3295
+2022-08-01 00:00:00,United States of America,1832
+2022-08-01 00:00:00,Overseas,233
+2022-09-01 00:00:00,Canada,3391
+2022-09-01 00:00:00,United States of America,1579
+2022-09-01 00:00:00,Overseas,198
+2022-10-01 00:00:00,Canada,3860
+2022-10-01 00:00:00,United States of America,1703
+2022-10-01 00:00:00,Overseas,165
+2022-11-01 00:00:00,Canada,10649
+2022-11-01 00:00:00,United States of America,1786
+2022-11-01 00:00:00,Overseas,174
+2022-12-01 00:00:00,Canada,17835
+2022-12-01 00:00:00,United States of America,1875
+2022-12-01 00:00:00,Overseas,496
+2023-01-01 00:00:00,Canada,27231
+2023-01-01 00:00:00,United States of America,917
+2023-01-01 00:00:00,Overseas,317
+2023-02-01 00:00:00,Canada,26679
+2023-02-01 00:00:00,United States of America,892
+2023-02-01 00:00:00,Overseas,286
+2023-03-01 00:00:00,Canada,29779
+2023-03-01 00:00:00,United States of America,1933
+2023-03-01 00:00:00,Overseas,419
+2023-04-01 00:00:00,Canada,21423
+2023-04-01 00:00:00,United States of America,1891
+2023-04-01 00:00:00,Overseas,449
+2023-05-01 00:00:00,Canada,6599
+2023-05-01 00:00:00,United States of America,2539
+2023-05-01 00:00:00,Overseas,231
+2023-06-01 00:00:00,Canada,4810
+2023-06-01 00:00:00,United States of America,4261
+2023-06-01 00:00:00,Overseas,376
+2023-07-01 00:00:00,Canada,4886
+2023-07-01 00:00:00,United States of America,4308
+2023-07-01 00:00:00,Overseas,615
+2023-08-01 00:00:00,Canada,6189
+2023-08-01 00:00:00,United States of America,4260
+2023-08-01 00:00:00,Overseas,591
+2023-09-01 00:00:00,Canada,7321
+2023-09-01 00:00:00,United States of America,3621
+2023-09-01 00:00:00,Overseas,582
+2023-10-01 00:00:00,Canada,8246
+2023-10-01 00:00:00,United States of America,3468
+2023-10-01 00:00:00,Overseas,416
+2023-11-01 00:00:00,Canada,14828
+2023-11-01 00:00:00,United States of America,2727
+2023-11-01 00:00:00,Overseas,547
+2023-12-01 00:00:00,Canada,23532
+2023-12-01 00:00:00,United States of America,3115
+2023-12-01 00:00:00,Overseas,1178
+2024-01-01 00:00:00,Canada,32260
+2024-01-01 00:00:00,United States of America,1561
+2024-01-01 00:00:00,Overseas,782
+2024-02-01 00:00:00,Canada,35685
+2024-02-01 00:00:00,United States of America,1747
+2024-02-01 00:00:00,Overseas,794
+2024-03-01 00:00:00,Canada,40672
+2024-03-01 00:00:00,United States of America,2627
+2024-03-01 00:00:00,Overseas,1127
+2024-04-01 00:00:00,Canada,26277
+2024-04-01 00:00:00,United States of America,2591
+2024-04-01 00:00:00,Overseas,905
+2024-05-01 00:00:00,Canada,11148
+2024-05-01 00:00:00,United States of America,4101
+2024-05-01 00:00:00,Overseas,573
+2024-06-01 00:00:00,Canada,7711
+2024-06-01 00:00:00,United States of America,7515
+2024-06-01 00:00:00,Overseas,803
+2024-07-01 00:00:00,Canada,7876
+2024-07-01 00:00:00,United States of America,7278
+2024-07-01 00:00:00,Overseas,842
+2024-08-01 00:00:00,Canada,9585
+2024-08-01 00:00:00,United States of America,6268
+2024-08-01 00:00:00,Overseas,818
+2024-09-01 00:00:00,Canada,9871
+2024-09-01 00:00:00,United States of America,4555
+2024-09-01 00:00:00,Overseas,721
+2024-10-01 00:00:00,Canada,11557
+2024-10-01 00:00:00,United States of America,5297
+2024-10-01 00:00:00,Overseas,573
+2024-11-01 00:00:00,Canada,20388
+2024-11-01 00:00:00,United States of America,4118
+2024-11-01 00:00:00,Overseas,702
+2024-12-01 00:00:00,Canada,27022
+2024-12-01 00:00:00,United States of America,4926
+2024-12-01 00:00:00,Overseas,1176
+2025-01-01 00:00:00,Canada,34567
+2025-01-01 00:00:00,United States of America,2727
+2025-01-01 00:00:00,Overseas,1026
+2025-02-01 00:00:00,Canada,37148
+2025-02-01 00:00:00,United States of America,3146
+2025-02-01 00:00:00,Overseas,962
+2025-03-01 00:00:00,Canada,37076
+2025-03-01 00:00:00,United States of America,3711
+2025-03-01 00:00:00,Overseas,1044
+2025-04-01 00:00:00,Canada,25948
+2025-04-01 00:00:00,United States of America,3013
+2025-04-01 00:00:00,Overseas,945
+2025-05-01 00:00:00,Canada,11619
+2025-05-01 00:00:00,United States of America,5432
+2025-05-01 00:00:00,Overseas,790
+2025-06-01 00:00:00,Canada,6480
+2025-06-01 00:00:00,United States of America,7936
+2025-06-01 00:00:00,Overseas,952
+2025-07-01 00:00:00,Canada,5231
+2025-07-01 00:00:00,United States of America,8371
+2025-07-01 00:00:00,Overseas,954
+2025-08-01 00:00:00,Canada,6795
+2025-08-01 00:00:00,United States of America,6453
+2025-08-01 00:00:00,Overseas,1153
+2025-09-01 00:00:00,Canada,6765
+2025-09-01 00:00:00,United States of America,4801
+2025-09-01 00:00:00,Overseas,579
+2025-10-01 00:00:00,Canada,8584
+2025-10-01 00:00:00,United States of America,5754
+2025-10-01 00:00:00,Overseas,613
+2025-11-01 00:00:00,Canada,15434
+2025-11-01 00:00:00,United States of America,4075
+2025-11-01 00:00:00,Overseas,653
